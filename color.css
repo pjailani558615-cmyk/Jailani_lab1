@@ -1,0 +1,31 @@
+body {
+    font-family: Calibri, sans-serif;
+    background-color: #c78171;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #f4f194;
+}
+
+ul {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #c78171;
+    background-color: #f4f194;
+}
+
+p {
+    text-align: center;
+    margin-top: 10px;
+    color: #f4f194;
+}
+
+a {
+    text-align: center;
+    margin-top: 10px;
+    color: #f4f194;
+}
