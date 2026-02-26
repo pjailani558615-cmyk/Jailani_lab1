@@ -25,6 +25,13 @@ label {
     margin-top: 5px;
 }
 
+select {
+    text-align: center;
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
 table {
   text-align: center;
 
