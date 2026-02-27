@@ -1,4 +1,11 @@
 <?php
+session_start();
+ 
+// If not logged in, redirect to login
+if (!isset($_SESSION['username'])) {
+    header("Location: login.php");
+    exit();
+}
 include "db.php";
 
 $stats = getStats($conn);
@@ -19,7 +26,7 @@ $revenue = $stats['revenue'];
 <?php include "nav.php"; ?>
  
 <h2>Dashboard</h2>
- 
+<h2>Welcome, <?php echo $_SESSION['username']; ?>!</h2>
 <ul>
   <li>Total Clients: <b><?php echo $clients; ?></b></li>
   <li>Total Services: <b><?php echo $services; ?></b></li>
