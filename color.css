@@ -18,6 +18,13 @@ label {
     color: #f4f194;
 }
 
+button {
+    text-align: center;
+    margin-top: 10px;
+    color: #f4f194;
+    background-color: #e81717;
+}
+
  input {
     text-align: center;
     width: 100%;
@@ -26,6 +33,13 @@ label {
 }
 
 select {
+    text-align: center;
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+textarea {
     text-align: center;
     width: 100%;
     padding: 8px;
